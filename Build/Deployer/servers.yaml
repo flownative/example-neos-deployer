@@ -1,0 +1,13 @@
+# Configuration/Servers.yaml
+
+# --- Production/Beta
+name-to-deploy-with:
+    host:             my.server.com
+    user:             www
+    identity_file:
+        public_key:   "~/.ssh/id_ras.pub"
+        private_key:  "~/.ssh/id_rsa"
+        # password:     ""
+    stage:            "Production/MyContext"
+    deploy_path:      "/www/project"
+    branch:           "1.1"
